@@ -31,7 +31,7 @@ export const OurProducts = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-6 border-l-4 border-orange-500 pl-8">
           <div>
             <h2 className="text-4xl font-bold tracking-tighter uppercase sm:text-5xl">
-              Ingeniería <span className="text-orange-500">Estructural</span>
+              Servicios <span className="text-orange-500">Estructurales</span>
             </h2>
             <p className="text-gray-400 mt-4 max-w-xl text-lg font-light">
               Soluciones de acero fabricadas para proyectos de alta exigencia.
