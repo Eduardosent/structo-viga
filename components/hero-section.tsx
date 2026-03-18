@@ -15,20 +15,20 @@ export const HeroSection = () => {
 
       {/* El pt-20 asegura que el contenido no quede pegado al Navbar blanco */}
       <div className="relative z-10 container mx-auto px-6 pt-24 text-center">
-        <p className="text-[10px] md:text-xs tracking-[0.5em] uppercase text-gray-300 mb-6 font-bold">
-          Ingeniería Estructural de Vanguardia
-        </p>
-        
-        <h1 className="text-4xl md:text-6xl font-semibold uppercase leading-[0.9] text-white mb-8 tracking-tighter">
-          Construimos con<br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-400 to-gray-500">
-            Precisión de Acero
-          </span>
-        </h1>
-        
-        <p className="max-w-2xl mx-auto text-sm md:text-base text-gray-300 mb-12 font-light leading-relaxed uppercase tracking-[0.15em]">
-          Suministramos la columna vertebral de la infraestructura moderna con estándares internacionales de calidad.
-        </p>
+<p className="text-[10px] md:text-xs tracking-[0.5em] uppercase text-gray-300 mb-6 font-bold">
+  Fabricación y Suministro de Vigas
+</p>
+
+<h1 className="text-4xl md:text-6xl font-semibold uppercase leading-[0.9] text-white mb-8 tracking-tighter">
+  Vigas para<br />
+  <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-400 to-gray-500">
+    Toda Estructura
+  </span>
+</h1>
+
+<p className="max-w-2xl mx-auto text-sm md:text-base text-gray-300 mb-12 font-light leading-relaxed uppercase tracking-[0.15em]">
+  Suministramos las vigas que tu proyecto necesita. Directo de fabricación a tu obra.
+</p>
         
         <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
           {/* Botón Principal: Negro para hacer match con el botón del Navbar */}
