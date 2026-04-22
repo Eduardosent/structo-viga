@@ -1,27 +1,32 @@
-import React from 'react';
+"use client";
 
-const useCases = [
-  {
-    id: "01",
-    title: "Naves de Gran Claro",
-    description: "Implementación en centros de distribución como AirCity, permitiendo espacios de maniobra libres de columnas de hasta 40 metros.",
-    image: "/viga-de-alma-abierta.png",
-  },
-  {
-    id: "02",
-    title: "Soportes de Alta Carga",
-    description: "Columnas de celosía diseñadas para resistir vientos críticos en autopistas y soportar tanques elevados con mínima huella de cimentación.",
-    image: "/columnas-de-celosia.png",
-  },
-  {
-    id: "03",
-    title: "Conexiones Elevadas",
-    description: "Pasarelas industriales para el tránsito seguro de personal entre naves y acceso a maquinaria de proceso sin interrumpir la planta.",
-    image: "/pasarelas-de-gran-claro.png"
-  }
-];
+import React from 'react';
+import { useTranslations } from 'next-intl';
 
 export const UseCases = () => {
+  const t = useTranslations('Landing.UseCases');
+
+  const useCases = [
+    {
+      id: "01",
+      title: t('items.0.title'),
+      description: t('items.0.description'),
+      image: "/viga-de-alma-abierta.png",
+    },
+    {
+      id: "02",
+      title: t('items.1.title'),
+      description: t('items.1.description'),
+      image: "/columnas-de-celosia.png",
+    },
+    {
+      id: "03",
+      title: t('items.2.title'),
+      description: t('items.2.description'),
+      image: "/pasarelas-de-gran-claro.png"
+    }
+  ];
+
   return (
     <section id="casos-uso" className="py-24 bg-white text-black">
       <div className="max-w-5xl mx-auto px-6">
@@ -29,7 +34,7 @@ export const UseCases = () => {
         {/* Cabecera */}
         <div className="mb-24 text-center">
           <h2 className="text-5xl md:text-6xl font-black tracking-tighter uppercase">
-            Casos de <span className="text-slate-400">Uso</span>
+            {t('titleMain')} <span className="text-slate-400">{t('titleAccent')}</span>
           </h2>
           <div className="h-1 w-24 bg-black mx-auto mt-6"></div>
         </div>

@@ -1,0 +1,88 @@
+{
+  "Landing": {
+    "Navbar": {
+      "home": "Home",
+      "products": "Products",
+      "about": "About Us",
+      "contact": "Contact",
+      "quote": "Get Quote",
+      "logoAlt": "Structo Viga Logo"
+    },
+    "Hero": {
+      "overline": "Beam Manufacturing and Supply",
+      "titleMain": "Beams for",
+      "titleAccent": "Any Structure",
+      "description": "We supply the beams your project needs. Directly from manufacturing to your site.",
+      "ctaCatalog": "View Catalog",
+      "ctaQuote": "Direct Quote"
+    },
+    "AboutUs": {
+      "titleMain": "Structural",
+      "titleAccent": "Supply",
+      "description1": "At StructoViga, we specialize in distributing high-strength steel solutions for infrastructure and building projects.",
+      "description2": "Our focus is the precise delivery of essential components:",
+      "item1": "Steel Beams and Columns",
+      "item2": "Structural Shapes",
+      "item3": "Construction Site Supply",
+      "imgAlt": "Structural steel materials"
+    },
+    "OurProducts": {
+      "titleMain": "Structural",
+      "titleAccent": "Services",
+      "subtitle": "Steel solutions manufactured for high-demand projects.",
+      "items": [
+        {
+          "title": "Long-Span Trusses",
+          "description": "Customizable structures designed to optimize strength-to-weight ratio, allowing for wide spans with minimized weight."
+        },
+        {
+          "title": "Lattice Columns or Pillars",
+          "description": "Vertical elements with high structural capacity and open-web design, ideal for supporting heavy loads with great torsional rigidity."
+        },
+        {
+          "title": "Long-Span Walkways",
+          "description": "Pedestrian bridges designed for spans above average, lightweight yet extremely robust for industrial traffic."
+        }
+      ]
+    },
+    "UseCases": {
+      "titleMain": "Use",
+      "titleAccent": "Cases",
+      "items": [
+        {
+          "title": "Long-Span Trusses",
+          "description": "Implementation in large-scale logistics centers and industrial warehouses, allowing column-free spans of up to 40 meters to optimize maneuvering and storage areas."
+        },
+        {
+          "title": "High-Load Supports",
+          "description": "Lattice columns designed to withstand critical winds on highways and support elevated tanks with a minimal foundation footprint."
+        },
+        {
+          "title": "Elevated Connections",
+          "description": "Industrial walkways for the safe passage of personnel between warehouses and access to process machinery without interrupting plant operations."
+        }
+      ]
+    },
+    "Contact": {
+      "overline": "Direct Contact",
+      "titleMain": "Let's talk about",
+      "titleAccent": "your project",
+      "description": "Steel structures manufactured in El Salvador for El Salvador and Central America. Contact us for quotes on long-span trusses, beams, and open-web joists.",
+      "labelPhone": "Calls",
+      "labelEmail": "Email",
+      "labelLocation": "Headquarters",
+      "locationValue": "El Salvador, C.A.",
+      "labelWhatsApp": "WhatsApp",
+      "ctaTitle": "Ready for a quote?",
+      "ctaDescription": "Write to our email or call us directly to start your estimate.",
+      "ctaButton": "Send Direct Email",
+      "footerNote": "Professional response • Structoviga.com"
+    },
+    "Footer": {
+      "description": "Steel structures: Long-span trusses, beams, and open-web joists. Made in El Salvador for El Salvador and Central America.",
+      "followUs": "Follow Us",
+      "rights": "All rights reserved",
+      "madeIn": "Made in El Salvador"
+    }
+  }
+}

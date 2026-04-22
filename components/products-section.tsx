@@ -4,37 +4,42 @@
 //   { id: 3, name: "Canal U Reforzado", img: "/product-3.jpg" },
 // ];
 
-import React from 'react';
+"use client";
 
-const products = [
-  {
-    title: "Cerchas de alma abierta (Open Web Trusses)",
-    image: "viga-alma-abierta.jpg",
-    description: "Estructuras personalizables diseñadas para optimizar la relación resistencia-peso, permitiendo cubrir grandes luces con un peso mínimizado."
-  },
-  {
-    title: "Columnas o Pilares de celosía (Open Web Pillars/Posts)",
-    image: "pilar-de-celosia.avif",
-    description: "Elementos verticales de alta capacidad estructural y diseño calado, ideales para soportar cargas pesadas con gran rigidez torsional."
-  },
-  {
-    title: "Pasarelas de gran claro (Long-span Walkways)",
-    image: "pasarela.webp",
-    description: "Puentes peatonales tipo pasarela diseñados para claros superiores al promedio, ligeros pero sumamente robustos para el tránsito industrial."
-  }
-];
+import React from 'react';
+import { useTranslations } from 'next-intl';
 
 export const OurProducts = () => {
+  const t = useTranslations('Landing.OurProducts');
+
+  const products = [
+    {
+      title: t('items.0.title'),
+      image: "viga-alma-abierta.jpg",
+      description: t('items.0.description')
+    },
+    {
+      title: t('items.1.title'),
+      image: "pilar-de-celosia.avif",
+      description: t('items.1.description')
+    },
+    {
+      title: t('items.2.title'),
+      image: "pasarela.webp",
+      description: t('items.2.description')
+    }
+  ];
+
   return (
     <section id="productos" className="py-24 bg-[#0a0a0a] text-white px-6">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-6 border-l-4 border-orange-500 pl-8">
           <div>
             <h2 className="text-4xl font-bold tracking-tighter uppercase sm:text-5xl">
-              Servicios <span className="text-orange-500">Estructurales</span>
+              {t('titleMain')} <span className="text-orange-500">{t('titleAccent')}</span>
             </h2>
             <p className="text-gray-400 mt-4 max-w-xl text-lg font-light">
-              Soluciones de acero fabricadas para proyectos de alta exigencia.
+              {t('subtitle')}
             </p>
           </div>
         </div>

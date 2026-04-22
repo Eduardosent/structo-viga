@@ -1,0 +1,88 @@
+{
+  "Landing": {
+    "Navbar": {
+      "home": "Inicio",
+      "products": "Productos",
+      "about": "Nosotros",
+      "contact": "Contacto",
+      "quote": "Cotizar",
+      "logoAlt": "Logotipo de Structo Viga"
+    },
+    "Hero": {
+      "overline": "Fabricación y Suministro de Vigas",
+      "titleMain": "Vigas para",
+      "titleAccent": "Toda Estructura",
+      "description": "Suministramos las vigas que tu proyecto necesita. Directo de fabricación a tu obra.",
+      "ctaCatalog": "Ver Catálogo",
+      "ctaQuote": "Cotización Directa"
+    },
+    "AboutUs": {
+      "titleMain": "Suministro",
+      "titleAccent": "Estructural",
+      "description1": "En StructoViga nos especializamos en la distribución de soluciones en acero de alta resistencia para proyectos de infraestructura y edificación.",
+      "description2": "Nuestro enfoque es la entrega precisa de componentes esenciales:",
+      "item1": "Vigas y Columnas de Acero",
+      "item2": "Perfiles Estructurales",
+      "item3": "Suministro para Obra",
+      "imgAlt": "Materiales de acero estructural"
+    },
+    "OurProducts": {
+      "titleMain": "Servicios",
+      "titleAccent": "Estructurales",
+      "subtitle": "Soluciones de acero fabricadas para proyectos de alta exigencia.",
+      "items": [
+        {
+          "title": "Cerchas de Gran Claro",
+          "description": "Estructuras personalizables diseñadas para optimizar la relación resistencia-peso, permitiendo cubrir grandes luces con un peso minimizado."
+        },
+        {
+          "title": "Columnas o Pilares de celosía",
+          "description": "Elementos verticales de alta capacidad estructural y diseño calado, ideales para soportar cargas pesadas con gran rigidez torsional."
+        },
+        {
+          "title": "Pasarelas de gran claro",
+          "description": "Puentes peatonales tipo pasarela diseñados para claros superiores al promedio, ligeros pero sumamente robustos para el tránsito industrial."
+        }
+      ]
+    },
+    "UseCases": {
+      "titleMain": "Casos de",
+      "titleAccent": "Uso",
+      "items": [
+        {
+          "title": "Cerchas de Gran Claro",
+          "description": "Implementación en centros logísticos y naves industriales de gran escala, permitiendo claros libres de columnas de hasta 40 metros para optimizar las áreas de maniobra y almacenamiento."
+        },
+        {
+          "title": "Soportes de Alta Carga",
+          "description": "Columnas de celosía diseñadas para resistir vientos críticos en autopistas y soportar tanques elevados con mínima huella de cimentación."
+        },
+        {
+          "title": "Conexiones Elevadas",
+          "description": "Pasarelas industriales para el tránsito seguro de personal entre naves y acceso a maquinaria de proceso sin interrumpir la planta."
+        }
+      ]
+    },
+    "Contact": {
+      "overline": "Contacto Directo",
+      "titleMain": "Hablemos de",
+      "titleAccent": "tu proyecto",
+      "description": "Estructuras de acero fabricadas en El Salvador para El Salvador y Centroamérica. Contáctanos para cotizar cerchas de gran claro, vigas y viguetas de alma abierta.",
+      "labelPhone": "Llamadas",
+      "labelEmail": "Correo Electrónico",
+      "labelLocation": "Sede",
+      "locationValue": "El Salvador, C.A.",
+      "labelWhatsApp": "WhatsApp",
+      "ctaTitle": "¿Listo para cotizar?",
+      "ctaDescription": "Escríbenos a nuestro correo o llámanos directamente para iniciar tu presupuesto.",
+      "ctaButton": "Enviar Correo Directo",
+      "footerNote": "Respuesta profesional • Structoviga.com"
+    },
+    "Footer": {
+      "description": "Estructuras de acero: Cerchas, vigas y viguetas de alma abierta. Hecho en El Salvador para El Salvador y Central America.",
+      "followUs": "Síguenos",
+      "rights": "Todos los derechos reservados",
+      "madeIn": "Hecho en El Salvador"
+    }
+  }
+}

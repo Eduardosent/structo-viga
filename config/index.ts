@@ -1,0 +1,1 @@
+export { getAppMessages, getUserLocale} from './locale'
