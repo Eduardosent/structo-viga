@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image'; // Importado para optimizar el fondo
 import { useTranslations } from 'next-intl';
 
 export const HeroSection = () => {
@@ -11,16 +12,22 @@ export const HeroSection = () => {
       id="inicio"
       className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white"
     >
-      {/* Imagen de fondo */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(/hero-bg.jpg)` }}
-      />
+      {/* Imagen de fondo optimizada con Next.js */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/hero-bg.jpg"
+          alt="Fondo Structoviga"
+          fill   
+          sizes="100vw"
+          priority    
+          className="object-cover object-center"
+        />
+      </div>
       
-      {/* Gradiente */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80" />
+      {/* Gradiente por encima de la imagen */}
+      <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/70 via-black/40 to-black/80" />
 
-      <div className="relative z-10 container mx-auto px-6 pt-24 text-center">
+      <div className="relative z-20 container mx-auto px-6 pt-24 text-center">
         <p className="text-[10px] md:text-xs tracking-[0.5em] uppercase text-gray-300 mb-6 font-bold">
           {t('overline')}
         </p>
@@ -54,7 +61,7 @@ export const HeroSection = () => {
       </div>
 
       {/* Detalle técnico */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-[1px] h-16 bg-gradient-to-b from-white/50 to-transparent hidden md:block" />
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-[1px] h-16 bg-gradient-to-b from-white/50 to-transparent hidden md:block z-20" />
     </section>
   );
 };

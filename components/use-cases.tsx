@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 export const UseCases = () => {
@@ -56,9 +57,12 @@ export const UseCases = () => {
 
               {/* Imagen Centrada */}
               <div className="w-full bg-white border border-slate-100 shadow-sm">
-                <img 
+                <Image 
                   src={use.image} 
                   alt={use.title}
+                  width={974}
+                  height={974}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 974px"
                   className="w-full h-auto block"
                 />
               </div>

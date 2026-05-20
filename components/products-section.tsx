@@ -3,10 +3,10 @@
 //   { id: 2, name: "Perfil H-Steel Premium", img: "/product-2.jpg" },
 //   { id: 3, name: "Canal U Reforzado", img: "/product-3.jpg" },
 // ];
-
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 export const OurProducts = () => {
@@ -15,17 +15,17 @@ export const OurProducts = () => {
   const products = [
     {
       title: t('items.0.title'),
-      image: "viga-alma-abierta.jpg",
+      image: "/viga-alma-abierta.jpg",
       description: t('items.0.description')
     },
     {
       title: t('items.1.title'),
-      image: "pilar-de-celosia.avif",
+      image: "/pilar-de-celosia.avif",
       description: t('items.1.description')
     },
     {
       title: t('items.2.title'),
-      image: "pasarela.webp",
+      image: "/pasarela.webp",
       description: t('items.2.description')
     }
   ];
@@ -48,10 +48,12 @@ export const OurProducts = () => {
           {products.map((p, index) => (
             <div key={index} className="group flex flex-col h-full bg-[#111] border border-white/5 hover:border-orange-500/50 transition-all duration-500">
               <div className="relative overflow-hidden aspect-[4/5]">
-                <img 
+                <Image 
                   src={p.image} 
-                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" 
                   alt={p.title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                 />
               </div>
 

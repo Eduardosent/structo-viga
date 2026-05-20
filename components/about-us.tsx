@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 export const AboutUs = () => {
@@ -41,10 +42,13 @@ export const AboutUs = () => {
 
         <div className="relative">
           <div className="relative group"> 
-            <img 
+            <Image 
               src="/about-img.jpg" 
-              className="w-full shadow-xl grayscale contrast-125" 
-              alt={t('imgAlt')} 
+              className="w-full h-auto shadow-xl grayscale contrast-125" 
+              alt={t('imgAlt')}
+              width={584}
+              height={584}
+              sizes="(max-width: 768px) 100vw, 584px"
             />
             <div className="absolute -bottom-6 -right-6 w-32 h-32 border-b-2 border-r-2 border-black/10 hidden md:block" />
           </div>

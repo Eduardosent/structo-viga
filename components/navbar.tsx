@@ -3,6 +3,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import { LanguageSwitcher } from './language-switcher';
+import Image from 'next/image';
 
 export const Navbar = () => {
   const t = useTranslations('Landing.Navbar');
@@ -17,10 +18,13 @@ export const Navbar = () => {
         
         {/* Contenedor del Logo */}
         <div className="flex items-center">
-          <img 
+          <Image
             src="/logo.png" 
             alt={t('logoAlt')} 
-            className="h-12 w-auto object-contain" 
+            width={91}     
+            height={48}    
+            priority 
+            className="h-12 w-auto object-contain"
           />
         </div>
         
